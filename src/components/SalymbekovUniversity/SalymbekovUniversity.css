@@ -1,0 +1,191 @@
+/* Основной контейнер */
+.university-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
+
+/* Заголовок с изображением */
+.university-header {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: #003366;
+  padding: 60px 20px;
+  margin-bottom: 40px;
+}
+
+.header-content {
+  z-index: 2;
+  position: relative;
+  padding: 20px;
+}
+
+.tagline {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+/* Описание университета */
+.about-university {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.about-university h2 {
+  color: #003366;
+}
+
+.about-university p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Преимущества учебы */
+.advantages {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.advantages h2 {
+  color: #003366;
+}
+
+.advantages ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.advantages li {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+/* Как поступить */
+.admission {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.admission h2 {
+  color: #003366;
+}
+
+.admission ol {
+  padding-left: 20px;
+}
+
+.admission li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Факультеты */
+.faculties {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.faculty-list {
+  display: flex;
+  gap: 20px;
+}
+
+.faculty-item {
+  flex: 1;
+  text-align: center;
+}
+
+.faculty-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.faculty-item h3 {
+  color: #003366;
+  margin-top: 10px;
+}
+
+/* Кампус */
+.campus {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.campus h2 {
+  color: #003366;
+}
+
+.campus p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.campus-image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Форма обратной связи */
+.contact-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.contact-form button {
+  background-color: #003366;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #002244;
+}
+  

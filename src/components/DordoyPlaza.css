@@ -1,0 +1,129 @@
+/* Основной контейнер */
+.dordoy-plaza-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+}
+
+/* Заголовок и изображение */
+.dordoy-plaza-header {
+  text-align: center;
+  color: white;
+  background-color: #003366;
+  padding: 60px 20px;
+  margin-bottom: 40px;
+}
+
+.dordoy-plaza-header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.plaza-header-image {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+/* Описание Дордой Плаза */
+.dordoy-plaza-about {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.dordoy-plaza-about h2 {
+  color: #003366;
+}
+
+.dordoy-plaza-about p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Этажи */
+.dordoy-plaza-floors {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.dordoy-plaza-floor {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dordoy-plaza-floor h3 {
+  color: #003366;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.plaza-floor-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.dordoy-plaza-floor p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* Филиалы брендов */
+.dordoy-plaza-brands {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.dordoy-plaza-brands h2 {
+  color: #003366;
+}
+
+.dordoy-plaza-brands ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dordoy-plaza-brands li {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+/* Контактная информация */
+.dordoy-plaza-contact {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dordoy-plaza-contact h2 {
+  color: #003366;
+}
+
+.dordoy-plaza-contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dordoy-plaza-contact li {
+  font-size: 18px;
+  padding: 10px 0;
+}
