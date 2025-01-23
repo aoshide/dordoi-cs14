@@ -8,7 +8,7 @@ const DordoyPlaza = () => {
 		<div className='dordoy-plaza-container'>
 			{/* Заголовок и изображение */}
 			<header className='dordoy-plaza-header'>
-				<h1>Дордой Плаза</h1>
+				<h1 style={{ color: "#fff" }}>Дордой Плаза</h1>
 				<p className='tagline'>Самый крупный и современный торговый центр в Бишкеке</p>
 				<img src={plazaImg1} alt='Dordoi Plaza Interior' className='plaza-header-image' />
 			</header>
@@ -57,7 +57,7 @@ const DordoyPlaza = () => {
 
 			{/* Филиалы брендов */}
 			<section className='dordoy-plaza-brands'>
-				<h2>Филиалы брендов</h2>
+				<h2 style={{ fontWeight: 500, fontSize: "24px" }}>Филиалы брендов</h2>
 				<p>
 					В Дордой Плаза представлены известные мировые бренды, которые обеспечивают высокое
 					качество товаров и услуг. Вот некоторые из них:
@@ -75,7 +75,7 @@ const DordoyPlaza = () => {
 
 			{/* Контактная информация */}
 			<section className='dordoy-plaza-contact'>
-				<h2>Контакты</h2>
+				<h2 style={{ fontWeight: 500, fontSize: "24px" }}>Контакты</h2>
 				<p>Для получения дополнительной информации или бронирования, вы можете связаться с нами:</p>
 				<ul>
 					<li>Телефон: +996 700 000 000</li>
@@ -89,7 +89,7 @@ const DordoyPlaza = () => {
 					Космо Парк расположен в центре города Бишкек по адресу:{" "}
 					<strong> ​Улица Ибраимова, 115/3</strong>.
 				</p>
-				<p>
+				<p className='map_cosmo'>
 					Для вашего удобства мы добавили карту:
 					<iframe
 						title='Космо Парк'

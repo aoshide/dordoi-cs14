@@ -1,7 +1,7 @@
 import React from "react"
 import footballImg from "../../assets/icons/football.jpg"
 import matchImg from "../../assets/icons/match1.jpeg" // Реальное изображение матча
-import logo from "../../assets/icons/logo.png" // Логотип клуба
+import logo from "../../assets/icons/logo.png"
 
 import "./DordoiFootball.css"
 

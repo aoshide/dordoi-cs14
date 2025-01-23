@@ -1,8 +1,8 @@
 import React from "react"
 import "./Dordoy.css"
-import dordoyImg from "../assets/icons/dordoy.jpg"
-import salymbekovImg from "../assets/icons/salymbekov.jpg"
-import dordoyMap from "../assets/icons/dordoyMap.jpg"
+import dordoyImg from "../../assets/icons/dordoy.jpg"
+import salymbekovImg from "../../assets/icons/salymbekov.jpg"
+import dordoyMap from "../../assets/icons/dordoyMap.jpg"
 
 const Dordoy = () => {
 	return (
@@ -15,7 +15,7 @@ const Dordoy = () => {
 						Крупнейший рынок Кыргызстана, центр торговли и экономического роста Центральной Азии.
 					</p>
 				</div>
-				<img src={dordoyImg} alt='Рынок Дордой' className='header-image' />
+				<img src={dordoyImg} alt='Рынок Дордой' className='header-image-main' />
 			</header>
 
 			{/* Основной контент */}
@@ -38,16 +38,13 @@ const Dordoy = () => {
 
 				{/* Информация о Салымбекове */}
 				<section className='about-salymbekov'>
-					<h2>Аскар Салымбеков</h2>
-					<div className='salymbekov-content'>
-						<img src={salymbekovImg} alt='Аскар Салымбеков' className='salymbekov-image' />
-						<p>
-							Аскар Салымбеков — выдающийся предприниматель, сыгравший ключевую роль в становлении
-							рынка Дордой. Благодаря его видению и усилиям, Дордой превратился в крупнейший рынок
-							региона. Аскар Салымбеков активно участвует в социальных и образовательных проектах,
-							включая создание университета, который носит его имя.
-						</p>
-					</div>
+					<img src={salymbekovImg} alt='Аскар Салымбеков' className='salymbekov-image' />
+					<p>
+						Аскар Салымбеков — выдающийся предприниматель, сыгравший ключевую роль в становлении
+						рынка Дордой. Благодаря его видению и усилиям, Дордой превратился в крупнейший рынок
+						региона. Аскар Салымбеков активно участвует в социальных и образовательных проектах,
+						включая создание университета, который носит его имя.
+					</p>
 				</section>
 
 				{/* Значимость и ключевые факты */}

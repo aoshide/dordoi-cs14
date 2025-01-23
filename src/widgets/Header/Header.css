@@ -1,144 +1,142 @@
 /* Основной стиль для хедера */
 .header {
-  background-color: #003366; /* Темный фон */
-  color: white;
-  padding: 15px 30px; /* Уменьшены отступы */
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  box-sizing: border-box;
+	background-color: #003366; /* Темный фон */
+	color: white;
+	padding: 15px 30px; /* Уменьшены отступы */
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
 /* Контейнер для логотипа и меню */
 .header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%; /* Обеспечиваем 100% ширины для правильного выравнивания */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 /* Контейнер для логотипа */
 .logo-container {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* Уменьшен промежуток между логотипом и текстом */
-  width: 180px; /* Уменьшена ширина для логотипа */
+	display: flex;
+	align-items: center;
+	gap: 20px;
 }
 
 .logo-img {
-  width: 60px; /* Уменьшен размер логотипа */
-  height: auto;
+	width: 60px; /* Уменьшен размер логотипа */
+	height: auto;
 }
 
 .logo-text {
-  font-size: 28px; /* Уменьшен размер шрифта */
-  font-weight: bold;
-  margin: 0;
-  color: white;
+	font-size: 22px; /* Уменьшен размер шрифта */
+	font-weight: bold;
+	margin: 0;
+	color: white;
 }
 
 /* Бургер-меню */
 .burger-menu {
-  display: none;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 30px; /* Уменьшен размер бургер-меню */
-  height: 25px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+	display: none;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 30px; /* Уменьшен размер бургер-меню */
+	height: 25px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
 }
 
 .burger-menu .line {
-  width: 30px;
-  height: 5px;
-  background-color: white;
-  border-radius: 5px;
+	width: 30px;
+	height: 5px;
+	background-color: white;
+	border-radius: 5px;
 }
 
 /* Навигационное меню */
 .nav {
-  display: flex;
-  justify-content: flex-end; /* Размещаем навигацию справа */
-  gap: 25px; /* Уменьшен промежуток между пунктами меню */
-  z-index: 1; /* Меню будет ниже логотипа */
+	display: flex;
+	gap: 25px; /* Уменьшен промежуток между пунктами меню */
+	z-index: 1; /* Меню будет ниже логотипа */
 }
 
 .nav ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 .nav li {
-  margin: 0;
+	margin: 0;
 }
 
 .nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px; /* Уменьшен размер шрифта */
-  font-weight: bold;
-  padding: 10px 20px; /* Уменьшены отступы для ссылок */
-  transition: background-color 0.3s ease;
-  border-radius: 10px; /* Скругление кнопок */
+	color: white;
+	text-decoration: none;
+	font-size: 14px; /* Уменьшен размер шрифта */
+	font-weight: bold;
+	padding: 10px 20px; /* Уменьшены отступы для ссылок */
+	transition: background-color 0.3s ease;
+	border-radius: 10px; /* Скругление кнопок */
 }
 
 .nav a:hover,
 .nav a.active {
-  background-color: #005fa3;
+	background-color: #005fa3;
 }
 
 /* Адаптивный стиль для мобильных устройств */
 @media (max-width: 768px) {
-  .header-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 30px; /* Уменьшенное пространство между логотипом и меню */
-  }
+	.header-container {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 30px; /* Уменьшенное пространство между логотипом и меню */
+	}
 
-  .logo-text {
-    font-size: 32px; /* Уменьшен размер шрифта на мобильных устройствах */
-  }
+	.logo-text {
+		font-size: 32px; /* Уменьшен размер шрифта на мобильных устройствах */
+	}
 
-  .burger-menu {
-    display: flex;
-  }
+	.burger-menu {
+		display: flex;
+	}
 
-  .nav {
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background-color: #003366;
-    width: 100%;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-  }
+	.nav {
+		position: absolute;
+		top: 70px;
+		right: 0;
+		background-color: #003366;
+		width: 100%;
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+		box-sizing: border-box;
+	}
 
-  .nav.open {
-    display: flex;
-  }
+	.nav.open {
+		display: flex;
+	}
 
-  .nav ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px; /* Уменьшено пространство между пунктами меню на мобильных устройствах */
-  }
+	.nav ul {
+		flex-direction: column;
+		align-items: center;
+		gap: 15px; /* Уменьшено пространство между пунктами меню на мобильных устройствах */
+	}
 
-  .nav li {
-    margin: 0;
-  }
+	.nav li {
+		margin: 0;
+	}
 
-  .nav a {
-    padding: 8px 15px; /* Уменьшены отступы на мобильных устройствах */
-    font-size: 16px; /* Уменьшен размер шрифта на мобильных устройствах */
-  }
+	.nav a {
+		padding: 8px 15px; /* Уменьшены отступы на мобильных устройствах */
+		font-size: 16px; /* Уменьшен размер шрифта на мобильных устройствах */
+	}
 }

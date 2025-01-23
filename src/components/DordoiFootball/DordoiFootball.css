@@ -1,147 +1,148 @@
 /* Основные стили */
 .football-container {
-  font-family: 'Roboto', sans-serif;
-  background-color: #fafafa;
-  padding: 20px;
-  color: #333;
+	font-family: "Roboto", sans-serif;
+	background-color: #fafafa;
+	color: #333;
 }
 
 /* Заголовок клуба */
 .football-header {
-  position: relative;
-  text-align: center;
-  color: white;
-  background-color: #003366;
-  padding: 60px 20px;
-  margin-bottom: 40px;
-}
-
-.header-content {
-  z-index: 2;
-  position: relative;
-  padding: 20px;
+	position: relative;
+	text-align: center;
+	color: white;
+	background-color: #003366;
+	padding: 60px 20px;
+	margin-bottom: 40px;
 }
 
 .club-logo {
-  width: 180px;
-  height: auto;
-  margin-top: 20px;
+	width: 180px;
+	height: auto;
+	margin-top: 20px;
 }
 
 .header-image {
-  width: 100%;
-  height: auto;
-  opacity: 0.7;
-  margin-top: 20px;
+	width: 100%;
+	height: auto;
+	opacity: 0.7;
+	margin-top: 20px;
+	border-radius: 10px;
 }
 
 /* История клуба */
 .club-history {
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 40px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	margin-bottom: 40px;
 }
 
 .club-history h2 {
-  color: #003366;
-  font-size: 28px;
+	color: #003366;
+	font-size: 28px;
 }
 
 .club-history p {
-  font-size: 16px;
-  line-height: 1.6;
+	font-size: 16px;
+	line-height: 1.6;
 }
 
 /* Актуальные матчи */
 .matches-section {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
+	padding: 20px;
 }
 
 .match-image-small {
-  width: 200px;
-  height: auto;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	width: 200px;
+	height: auto;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .matches-list {
-  list-style: none;
-  padding: 0;
-  font-size: 18px;
+	list-style: none;
+	padding: 0;
+	font-size: 18px;
 }
 
 .matches-list li {
-  background-color: #ffffff;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
+	background-color: #ffffff;
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s ease;
 }
 
 .matches-list li:hover {
-  background-color: #003366;
-  color: white;
+	background-color: #003366;
+	color: white;
 }
 
 /* Секция регистрации */
 .registration-section {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
+	padding: 20px;
 }
 
 .registration-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 }
 
 .registration-form input,
 .registration-form select {
-  padding: 10px;
-  font-size: 16px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 8px;
+	border: 1px solid #ddd;
 }
 
 .submit-button {
-  background-color: #003366;
-  color: white;
-  padding: 12px;
-  font-size: 18px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+	background-color: #003366;
+	color: white;
+	padding: 12px;
+	font-size: 18px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
 }
 
 .submit-button:hover {
-  background-color: #002244;
+	background-color: #002244;
 }
 
 /* Секция галереи */
 .gallery-section {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .gallery-section h2 {
-  color: #003366;
-  font-size: 28px;
-  text-align: center;
+	color: #003366;
+	font-size: 28px;
+	text-align: center;
 }
 
 .gallery {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
+	display: flex;
+	gap: 15px;
+	justify-content: center;
 }
 
 .gallery-item {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.location h2 {
+	font-size: 24px;
+	font-weight: bold;
 }

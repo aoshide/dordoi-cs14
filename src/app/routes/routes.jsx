@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import Header from "../../widgets/Header/Header"
 import Footer from "../../widgets/Footer/Footer"
-import Main from "../../components/Main"
+import Main from "../../components/MainPage/Main"
 import Football from "../../components/DordoiFootball/Football"
 import SalymbekovUniversity from "../../components/SalymbekovUniversity/SalymbekovUniversity"
 import CosmosPark from "../../components/CosmoPark/CosmosPark"

@@ -18,7 +18,7 @@ const SalymbekovUniversity = () => {
 
 			{/* Описание университета */}
 			<section className='about-university'>
-				<h2>О университете</h2>
+				<h2 style={{ fontWeight: 700, fontSize: "24px" }}>Об университете</h2>
 				<p>
 					Салымбеков Университет – это один из ведущих образовательных учреждений Кыргызстана,
 					предоставляющий высококачественное образование на различных уровнях, включая бакалавриат,
@@ -29,7 +29,9 @@ const SalymbekovUniversity = () => {
 
 			{/* Преимущества учебы */}
 			<section className='advantages'>
-				<h2>Преимущества учебы в Салымбеков Университете</h2>
+				<h2 style={{ fontWeight: 700, fontSize: "24px" }}>
+					Преимущества учебы в Салымбеков Университете
+				</h2>
 				<ul>
 					<li>Современные учебные материалы и технологии</li>
 					<li>Практическая направленность курсов</li>
@@ -41,8 +43,8 @@ const SalymbekovUniversity = () => {
 
 			{/* Как поступить */}
 			<section className='admission'>
-				<h2>Как поступить</h2>
-				<p>
+				<h2 style={{ fontWeight: 700, fontSize: "24px" }}>Как поступить</h2>
+				<p style={{ fontWeight: 700, fontSize: "17px", marginBottom: "10px" }}>
 					Поступление в Салымбеков Университет — это простой и прозрачный процесс. Следуйте этим
 					шагам, чтобы начать ваше образование:
 				</p>
@@ -56,16 +58,18 @@ const SalymbekovUniversity = () => {
 			</section>
 
 			<section className='faculties'>
-				<h2>Наши факультеты</h2>
+				<h2 style={{ fontWeight: 700, fontSize: "24px" }}>Наши факультеты</h2>
 				<div className='faculty-list'>
 					<div className='faculty-item'>
 						{/* <img src={facultyImg} alt="Faculty of IT" /> */}
-						<h3>Факультет информационных технологий</h3>
+						<h3 style={{ fontWeight: 700, fontSize: "17px" }}>
+							Факультет информационных технологий
+						</h3>
 						<p>Образование в области IT, программирования, разработки и системных технологий.</p>
 					</div>
 					<div className='faculty-item'>
 						{/* <img src={facultyImg} alt="Faculty of Business" /> */}
-						<h3>Факультет бизнеса и экономики</h3>
+						<h3 style={{ fontWeight: 700, fontSize: "17px" }}>Факультет бизнеса и экономики</h3>
 						<p>Курсы по бизнесу, экономике, управлению и предпринимательству.</p>
 					</div>
 				</div>
@@ -73,7 +77,7 @@ const SalymbekovUniversity = () => {
 
 			{/* Кампус университета */}
 			<section className='campus'>
-				<h2>Кампус</h2>
+				<h2 style={{ fontWeight: 700, fontSize: "24px" }}>Кампус</h2>
 				<p>
 					Кампус Салымбеков Университета — это современная образовательная и культурная среда с
 					удобными аудиториями, студиями и зонами для отдыха. Мы обеспечиваем студентов всем
@@ -84,7 +88,7 @@ const SalymbekovUniversity = () => {
 
 			{/* Форма обратной связи */}
 			<section className='contact-form'>
-				<h2>Связаться с нами</h2>
+				<h2 style={{ fontWeight: 700, fontSize: "24px" }}>Связаться с нами</h2>
 				<form>
 					<label htmlFor='name'>Имя:</label>
 					<input type='text' id='name' name='name' placeholder='Ваше имя' required />
@@ -97,11 +101,11 @@ const SalymbekovUniversity = () => {
 			</section>
 			<section className='location'>
 				<h2>Где находится?</h2>
-				<p>
+				<p style={{ fontSize: "18px" }}>
 					Космо Парк расположен в центре города Бишкек по адресу:{" "}
 					<strong> Исы Ахунбаева, 125/2</strong>.
 				</p>
-				<p>
+				<p className='map_cosmo'>
 					Для вашего удобства мы добавили карту:
 					<iframe
 						title='Космо Парк'
