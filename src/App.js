@@ -6,6 +6,7 @@ import Football from "./components/DordoiFootball/Football";
 import SalymbekovUniversity from "./components/SalymbekovUniversity/SalymbekovUniversity";
 import CosmosPark from "./components/CosmoPark/CosmosPark";
 import DordoyPlaza from "./components/DordoyPlaza";
+import Undefined from "./components/Undefined/UndefinedPage.Jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/university" element={<SalymbekovUniversity />} />
         <Route path="/cosmos-park" element={<CosmosPark />} />
         <Route path="/dordoy-plaza" element={<DordoyPlaza />} />
+        <Route path="*" element={<Undefined />} />
       </Routes>
       <Footer />
     </Router>
